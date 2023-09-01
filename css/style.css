@@ -1,0 +1,119 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --color-denger: #e68285;
+  --color-Button: #d62e33;
+  --color-border-icons: #9a9784;
+}
+#one,
+#two,
+#three,
+#four {
+  cursor: pointer;
+}
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+/* Start Section one in css */
+.section-one {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../image/events-heavenly-header.jpg);
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.section-one h1 {
+  margin-top: 50vh;
+  font-size: 4rem;
+}
+.layer {
+  background-color: rgba(214, 46, 51, 0.6);
+}
+.navber {
+  width: 250px;
+  position: fixed;
+  top: 0px;
+  left: -250px;
+  bottom: 0px;
+  z-index: 999999999999999;
+}
+.navber .fa-xmark {
+  margin-left: 200px;
+  cursor: pointer;
+  color: white;
+  transition: 0.5s all;
+}
+.navber .fa-xmark:hover {
+  color: var(--color-Button);
+}
+.navber a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.5s all;
+}
+.navber a:hover {
+  color: #d62e33;
+}
+.base {
+  cursor: pointer;
+  margin-left: 101%;
+}
+/* End Section one in css   */
+/* Start section two in css */
+#Duration {
+  width: 100%;
+}
+#Duration .colordenger {
+  width: 100%;
+  background-color: var(--color-denger);
+}
+#loremone,
+#loremtwo,
+#loremthree,
+#loremfour {
+  display: none;
+  background-color: #ccc;
+}
+/* End section two in css */
+/* Start section Three in css */
+#Details {
+  width: 100%;
+  height: 40vh;
+  background-image: url(../image/invitation-2508607__340.jpg);
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-attachment: fixed;
+  
+}
+.layer2 {
+  background-color: rgba(214, 46, 51, 0.6);
+}
+.card-one,
+.card-two,
+.card-three,
+.card-four {
+  border: 1px solid white;
+}
+/* End section Three in css */
+/* Start section Four in css */
+.icons-foot i{
+  padding: 15px;
+  color: var(--color-border-icons);
+  border: 1px solid var(--color-border-icons);
+  cursor: pointer;
+}
+.icons-foot i:hover{
+  background-color: var(--color-Button);
+  color: white;
+  border: 1px solid var(--color-Button);
+
+}
+/* End section Four in css */
